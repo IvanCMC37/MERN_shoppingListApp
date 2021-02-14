@@ -7,8 +7,15 @@ import { Container } from "reactstrap";
 
 import { Provider } from "react-redux";
 import store from "./store";
+import { loadUser } from "./actions/authActions";
+import React, { useState, useEffect } from "react";
 
 function App() {
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    store.dispatch(loadUser());
+  });
+
   return (
     <Provider store={store}>
       <div className="App">
