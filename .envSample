@@ -1,0 +1,4 @@
+DBUserName = 'username'
+DBPassword = 'password'
+cluster = 'cluserName'
+DBName = 'DBName'
