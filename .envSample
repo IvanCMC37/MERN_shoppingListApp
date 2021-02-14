@@ -1,4 +1,2 @@
-DBUserName = 'username'
-DBPassword = 'password'
-cluster = 'cluserName'
-DBName = 'DBName'
+mongoURI = 'mongoDB_connectionString'
+jwtSecret = 'secrtKey'
