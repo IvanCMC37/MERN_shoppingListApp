@@ -42,6 +42,8 @@ dont forget to add remote access.
 git add .
 git commit -am "your comment"
 git push heroku master
+
+A more elegant way to deploy to heroku is to setup automatic deployment...
 ```
 
 ## App Info
