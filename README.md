@@ -36,7 +36,9 @@ To get started, download and install the [Heroku CLI](https://devcenter.heroku.c
 heroku login
 
 # Deploy your changes
-Make some changes to the code you just cloned and deploy them to Heroku using Git, dont forget to add remote access.
+Make some changes to the code you just cloned and deploy them to Heroku using Git,
+dont forget to add remote access.
+
 git add .
 git commit -am "your comment"
 git push heroku master
